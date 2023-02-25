@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.course-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-head-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.heading-time {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.course-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+.tag-con {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+.tag-item {
+  background-color: #cfd1d4;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+}
